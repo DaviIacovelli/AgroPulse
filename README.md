@@ -60,16 +60,3 @@ Desenvolvido por **Davi Iacovelli**
 
 *Estudante de Ciência da Computação — Universidade Veiga de Almeida (UVA)*
 
-```
-
----
-
-### Como finalizar no GitHub:
-1. Cole esse texto na aba **Edit**.
-2. Role até o topo da tela e note que o aviso amarelo sobre o UTF-16 vai sumir ou se ajustar automaticamente ao salvar como UTF-8.
-3. Clique no botão verde **Commit changes...** (canto superior direito).
-4. Confirme clicando em **Commit changes** na caixinha que vai abrir.
-
-Assim que fizer isso, o seu repositório AgroPulse ficará com uma apresentação impecável para qualquer recrutador tech que acessar o seu perfil! Me avise quando concluir para atualizarmos outro projeto ou seguirmos para as candidaturas.
-
-```
