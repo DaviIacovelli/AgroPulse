@@ -1,3 +1,12 @@
+O seu print mostra que o `README.md` atual do repositório AgroPulse está vazio (com caracteres corrompidos de codificação UTF-16). Para um recrutador ou engenheiro que entrar no seu GitHub, um bom `README.md` precisa demonstrar imediatamente arquitetura, hardware utilizado, lógica e organização técnica.
+
+Preparei um **Markdown profissional e completo** para você copiar e colar diretamente nessa tela do GitHub (na aba *Edit* do arquivo `README.md`).
+
+---
+
+### Copie e cole todo o conteúdo abaixo na caixa de texto do GitHub:
+
+```markdown
 # 🌾 AgroPulse — Sistema de Irrigação Inteligente & IoT
 
 Protótipo físico de irrigação automatizada de alta precisão desenvolvido em **C/C++** utilizando **PlatformIO / Arduino**, focado na otimização do uso de água na agricultura através de monitoramento ambiental em tempo real e acionamento autônomo de atuadores.
@@ -5,23 +14,23 @@ Protótipo físico de irrigação automatizada de alta precisão desenvolvido em
 ---
 
 ## 🛠️ Tecnologias e Stack de Hardware
-* **Microcontrolador:** Arduino Uno R3[cite: 3]
-* **Linguagem:** C / C++[cite: 3]
+* **Microcontrolador:** Arduino Uno R3
+* **Linguagem:** C / C++
 * **Ambiente de Desenvolvimento:** PlatformIO (VS Code)
 * **Sensores:** 
-  * Sensor de Temperatura e Umidade do Ar: **DHT22**[cite: 3]
-  * Sensor de Umidade do Solo: **Capacitivo Analógico**[cite: 3]
-* **Display & Interface:** Display **OLED SSD1306 (I2C)** para telemetria local em tempo real[cite: 3]
-* **Atuação & Potência:** Módulo Relé de 8 canais[cite: 3], Válvula Solenóide 12V[cite: 3] e conversor DC-DC Step-Down **LM2596**[cite: 3] para regulação segura de tensão.
-* **Documentação:** Especificação técnica estruturada em **LaTeX** (padrão ABNT)[cite: 3].
+  * Sensor de Temperatura e Umidade do Ar: **DHT22**
+  * Sensor de Umidade do Solo: **Capacitivo Analógico**
+* **Display & Interface:** Display **OLED SSD1306 (I2C)** para telemetria local em tempo real
+* **Atuação & Potência:** Módulo Relé de 8 canais, Válvula Solenóide 12V e conversor DC-DC Step-Down **LM2596** para regulação segura de tensão.
+* **Documentação:** Especificação técnica estruturada em **LaTeX** (padrão ABNT).
 
 ---
 
 ## ⚙️ Arquitetura e Funcionamento do Sistema
 1. **Coleta de Dados:** O sistema realiza a leitura contínua dos dados ambientais do DHT22 e das taxas de umidade do solo por meio do sensor capacitivo.
 2. **Processamento Local & Lógica de Limiares:** A firmware em C/C++ aplica algoritmos de limiares dinâmicos para avaliar a necessidade hídrica da cultura.
-3. **Telemetria:** Os dados coletados e o status do sistema são renderizados dinamicamente no display **OLED SSD1306**[cite: 3].
-4. **Atuação Automática:** Caso a umidade do solo atinja níveis críticos abaixo do parâmetro estipulado, o microcontrolador aciona o módulo relé, abrindo a válvula solenoide de 12V[cite: 3] para irrigação controlada.
+3. **Telemetria:** Os dados coletados e o status do sistema são renderizados dinamicamente no display **OLED SSD1306**.
+4. **Atuação Automática:** Caso a umidade do solo atinja níveis críticos abaixo do parâmetro estipulado, o microcontrolador aciona o módulo relé, abrindo a válvula solenoide de 12V para irrigação controlada.
 
 ---
 
@@ -33,3 +42,42 @@ AgroPulse/
 ├── src/           # Código-fonte principal em C/C++ (main.cpp)
 ├── test/          # Testes unitários de bancada
 └── platformio.ini # Configuração de ambiente e dependências do PlatformIO
+
+```
+
+---
+
+## 🚀 Como Executar o Projeto
+
+1. Certifique-se de ter o [VS Code](https://code.visualstudio.com/) instalado com a extensão **PlatformIO IDE**.
+2. Clone este repositório:
+```bash
+git clone [https://github.com/Davilacovelli/AgroPulse.git](https://github.com/Davilacovelli/AgroPulse.git)
+
+```
+
+
+3. Abra a pasta do projeto no PlatformIO.
+4. Conecte o Arduino Uno R3 via USB e compile/carregue o código para a placa utilizando o comando de upload do PlatformIO.
+
+---
+
+## 👤 Autor
+
+Desenvolvido por **Davi Iacovelli**
+
+*Estudante de Ciência da Computação — Universidade Veiga de Almeida (UVA)*
+
+```
+
+---
+
+### Como finalizar no GitHub:
+1. Cole esse texto na aba **Edit**.
+2. Role até o topo da tela e note que o aviso amarelo sobre o UTF-16 vai sumir ou se ajustar automaticamente ao salvar como UTF-8.
+3. Clique no botão verde **Commit changes...** (canto superior direito).
+4. Confirme clicando em **Commit changes** na caixinha que vai abrir.
+
+Assim que fizer isso, o seu repositório AgroPulse ficará com uma apresentação impecável para qualquer recrutador tech que acessar o seu perfil! Me avise quando concluir para atualizarmos outro projeto ou seguirmos para as candidaturas.
+
+```
