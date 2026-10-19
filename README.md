@@ -1,12 +1,4 @@
-O seu print mostra que o `README.md` atual do repositório AgroPulse está vazio (com caracteres corrompidos de codificação UTF-16). Para um recrutador ou engenheiro que entrar no seu GitHub, um bom `README.md` precisa demonstrar imediatamente arquitetura, hardware utilizado, lógica e organização técnica.
 
-Preparei um **Markdown profissional e completo** para você copiar e colar diretamente nessa tela do GitHub (na aba *Edit* do arquivo `README.md`).
-
----
-
-### Copie e cole todo o conteúdo abaixo na caixa de texto do GitHub:
-
-```markdown
 # 🌾 AgroPulse — Sistema de Irrigação Inteligente & IoT
 
 Protótipo físico de irrigação automatizada de alta precisão desenvolvido em **C/C++** utilizando **PlatformIO / Arduino**, focado na otimização do uso de água na agricultura através de monitoramento ambiental em tempo real e acionamento autônomo de atuadores.
